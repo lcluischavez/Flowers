@@ -1,0 +1,199 @@
+{
+    "singleFlowers": [
+        { 
+            "id": 1, 
+            "name": "Rose",
+            "color": "red"
+         },
+        { 
+            "id": 2, 
+            "name": "Tulip",
+            "color": "orange"
+        },
+        { 
+            "id": 3, 
+            "name": "Violet",
+            "color": "purple"
+        },
+        { 
+            "id": 4, 
+            "name": "Sunflower",
+            "color": "yellow"
+        },
+        { 
+            "id": 5, 
+            "name": "White Lily",
+            "color": "white"
+        }
+    ],
+    "nurseries": [
+        { 
+            "id": 1, 
+            "name": "Betty Cares" 
+        },
+        { 
+            "id": 2, 
+            "name": "Tammy's Nursery" 
+        },
+        { 
+            "id": 3, 
+            "name": "T&J Nursery" 
+        },
+        { 
+            "id": 4, 
+            "name": "Flower Hospital" 
+        }
+    ],
+    "flowerNurseries": [
+        {
+            "id": 1,
+            "singleFlowerId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "singleFlowerId": 1,
+            "nurseryId": 2
+        },
+        {
+            "id": 3,
+            "singleflowerId": 2,
+            "nurseryId": 2
+        },
+        {
+            "id": 4,
+            "singleFlowerId": 2,
+            "nurseryId": 3
+        }
+    ],
+
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Precious Petals",
+            "city": "Seattle",
+            "state": "Washington",
+            "address": " 231 Microsoft Drive",
+            "distributorId": 1
+        },
+        {
+            "id": 2, 
+            "name": "First Rose",
+            "city": "Atlanta",
+            "state": "Georgia",
+            "address": "768 Peachtree Street",
+            "distributorId": 4
+        },
+        {
+            "id": 3,
+            "name": "L&M Flower Shop",
+            "city": "Shelbyville",
+            "state": "Tennessee",
+            "address": "599 Whitthorne St",
+            "distributorId": 4
+        },
+        { 
+            "id": 4, 
+            "name": "Flower Tower",
+            "city": "New York City",
+            "state": "New York",
+            "address": " 300 5th Ave",
+            "distributorId": 2
+        },
+        {
+            "id": 5, 
+            "name": "Flores",
+            "city": "Phoenix",
+            "state": "Arizona",
+            "address": "4837 Seldon Lane",
+            "distributorId": 3
+        }
+    ],
+    "distributors": [
+        { 
+            "id": 1, 
+            "name": "Flower Dispensery",
+            "city": "Tacoma",
+            "state": "Washington",
+            "address": " 401 Shelby Dr"
+             
+        },
+        { 
+            "id": 2, 
+            "name": "Flower Distribution",
+            "city": "Augusta",
+            "state": "Maine",
+            "address": "1738 Miracle Drive"
+        },
+        { 
+            "id": 3, 
+            "name": "Flowers West",
+            "city": "Anaheim",
+            "state": "California",
+            "address": " 231 Disney Drive"
+        },
+        { 
+            "id": 4, 
+            "name": "Flower Inc",
+            "city": "Birmingham",
+            "state": "Alabama",
+            "address": " 671 YeeYee Park"
+        }
+    ],
+    "singleNurseries": [
+        { 
+            "id": 1, 
+            "name": "Betty Cares" 
+        },
+        { 
+            "id": 2, 
+            "name": "Tammy's Nursery" 
+        },
+        { 
+            "id": 3, 
+            "name": "T&J Nursery" 
+        },
+        { 
+            "id": 4, 
+            "name": "Flower Hospital" 
+        }
+    ],
+    "nurseryDistributors": [
+        {
+            "id": 1,
+            "singleNurseryId": 1,
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 2,
+            "distributorId": 1
+        },
+        {
+            "id": 3,
+            "singleNurseryId": 3,
+            "distributorId": 2
+        },
+        {
+            "id": 4,
+            "singleNurseryId": 1,
+            "distributorId": 2
+        },
+        {
+            "id": 5,
+            "singleNurseryId": 2,
+            "distributorId": 3
+        },
+        {
+            "id": 6,
+            "singleNurseryId": 4,
+            "distributorId": 4
+        },
+        {
+            "id": 7,
+            "singleNurseryId": 3,
+            "distributorId": 4
+        }
+    ]
+
+}
